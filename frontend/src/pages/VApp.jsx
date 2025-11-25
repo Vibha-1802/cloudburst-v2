@@ -1,18 +1,10 @@
-export default function Test() {
+import VNavbar from "../components/VNavbar";
+
+export default function VApp() {
   return (
-    <div style={{
-      width: "300px",
-      height: "150px",
-      background: "lightgreen",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      margin: "40px auto",
-      borderRadius: "10px",
-      fontSize: "20px",
-      fontWeight: "bold"
-    }}>
-      React is Working! 🎉
+    <div>
+      <VNavbar />
     </div>
   );
 }
+
