@@ -1,13 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import VApp from "./pages/VApp"
 import "./index.css";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <Router>      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<div className="page">Dashboard Page</div>} />

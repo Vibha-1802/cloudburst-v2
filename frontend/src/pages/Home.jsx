@@ -1,7 +1,11 @@
+import Navbar from "../components/Navbar";
+
 export default function Home() {
   return (
+    <div>
+      <Navbar />
     <div className="home-container">
-
+      
       {/* HERO SECTION */}
       <section className="hero">
         <h1>Cloudburst Detection System</h1>
@@ -56,6 +60,7 @@ export default function Home() {
         </div>
       </section>
 
+    </div>
     </div>
   );
 }
